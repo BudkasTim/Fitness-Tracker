@@ -21,9 +21,15 @@ router.post("/api/workouts", (req, res) => {
 
 router.put("/api/workouts/:id", (req, res) => {
 
-    Workout.findOneAndUpdate(req.params.id, { $push: { exercises: req.body } }, { new: true })
-        .then(data => res.status(200).json(data))
-    // .catch(err => res.status(422).json(err))
+    Workout.findOneAndUpdate(req.params.id, { 
+        $push: { 
+            exercises: req.body 
+        }
+     }, { 
+         new: true 
+        })
+        .then(data => res.json(data))
+        .catch(err => res.json(err))
 });
 
 module.exports = router;
