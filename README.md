@@ -5,5 +5,5 @@
  * I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
  ## Link to Homework and Heroku 
- [Home work ](https://www.google.com)
- [To Heroku ](https://www.google.com)
+ *[Home work ](https://budkastim.github.io/Fitness-Tracker/)
+ *[To Heroku ](https://frozen-tundra-59163.herokuapp.com/)
